@@ -1,0 +1,130 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.article-container, .read-more-article-container {
+    width: 50%;
+    margin: auto;
+    background-color: #003049;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.read-more-article-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.createdAt {
+    color: #b8b8b8;
+}
+
+.article-description {
+    font-style: italic;
+}
+
+button {
+    min-width: 50px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+
+.new-article-button {
+    background-color: #003049;
+    margin: 10px 0 30px 0;
+}
+
+.new-article-button:hover {
+    background-color: hsl(201, 100%, 24%);
+}
+
+.read-more-button {
+    background-color: #009434;
+}
+
+.read-more-button:hover {
+    background-color: hsl(141, 100%, 39%);
+}
+
+.edit-button {
+    background-color: #006494;
+}
+
+.edit-button:hover {
+    background-color: hsl(199, 100%, 39%);
+}
+
+.delete-button {
+    background-color: #d90429;
+}
+
+.delete-button:hover {
+    background-color: hsl(350, 96%, 53%);
+}
+
+.delete-form {
+    display: inline;
+}
+
+.new-article-container, .edit-article-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.article-container {
+    margin-top: 20px;
+}
+
+.footer {
+    margin: 50px 0 30px 0;
+}
+
+  @media (max-width: 1024px) {
+    .article-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .read-more-article-container {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .new-article-container, .edit-article-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }    
+  }
